@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body .mac, body .ios, body .hero .mac, body .hero .ios {
+  padding: 12px 24px;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 14px;
+  border: none;
+  margin: 15px 5px;
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  width: 50%;
+  padding: 20px;
+  margin: auto;
+  line-height: 25px;
+}
+
+h1 {
+  font-size: 42px;
+  color: hsl(210, 10%, 33%);
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+body .hero {
+  padding: 50px 100px;
+  text-align: center;
+  background-image: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .hero img {
+  width: 80px;
+}
+body .hero p {
+  padding: 20px;
+}
+body .hero .ios {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0 4px 8px 0 rgba(38, 186, 164, 0.2), 0 6px 20px 0 rgba(38, 186, 164, 0.2);
+}
+body .hero .mac {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0 4px 8px 0 rgba(97, 115, 255, 0.2), 0 6px 20px 0 rgba(97, 115, 255, 0.2);
+}
+body .keep-track {
+  padding: 50px 100px;
+  text-align: center;
+}
+body .keep-track .computer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+body .keep-track .computer img {
+  margin-left: -150px;
+}
+body .keep-track .computer .properties-computer {
+  padding: 100px;
+  text-align: left;
+}
+body .keep-track .computer .properties-computer p {
+  padding: 10px 20px 50px 0;
+  margin-right: 200px;
+  width: 70%;
+}
+body .access-clip {
+  padding: 50px 100px;
+  text-align: center;
+}
+body .access-clip p {
+  padding-bottom: 80px;
+}
+body .supercharge {
+  padding: 50px 100px;
+  text-align: center;
+}
+body .supercharge .stages {
+  padding-top: 30px;
+  display: flex;
+}
+body .supercharge .stages .stage {
+  flex: 1;
+}
+body .supercharge .stages p {
+  width: 80%;
+}
+body .supercharge .stages img {
+  padding: 20px;
+}
+body .logos-company {
+  padding: 100px;
+}
+body .logos-company img {
+  margin-right: 70px;
+}
+body .download-clipboard {
+  padding: 50px 100px;
+  text-align: center;
+}
+body .ios {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0 4px 8px 0 rgba(38, 186, 164, 0.2), 0 6px 20px 0 rgba(38, 186, 164, 0.2);
+}
+body .mac {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0 4px 8px 0 rgba(97, 115, 255, 0.2), 0 6px 20px 0 rgba(97, 115, 255, 0.2);
+}
+body footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background: #f5f6f8;
+  padding: 20px;
+}
+body footer .footer-logo {
+  width: 80px;
+  padding: 20px;
+}
+body footer ul {
+  -moz-column-count: 3;
+       column-count: 3;
+  margin-right: 25em;
+}
+body footer ul li {
+  list-style-type: none;
+  padding: 10px;
+  font-size: 14px;
+}
+body footer ul li:hover {
+  color: hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+body footer .social-media i {
+  font-size: 20px;
+  padding: 10px;
+}
+body footer .social-media i:hover {
+  color: hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
